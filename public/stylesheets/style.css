@@ -1,0 +1,105 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+nav{
+  width: 100%;
+} */
+
+/* #collapse1 {
+  display: none;
+} */
+/* #form {
+  display: none;
+} */
+
+/* .navbar-toggler {
+  background: gray;
+  position: absolute;
+  top: 60px;
+  justify-content: center;
+} */
+/* 
+li {
+  text-align: center;
+  cursor: pointer;
+} */
+
+/* nav {
+  width: 100%;
+
+  display: flex;
+ 
+  position: relative;
+  font-size: 10px;
+}  */
+/* .navbar-brand {
+  padding-bottom: 60px;
+} */
+/* .dropdown-menu.show {
+  background: gray;
+} */
+/* 
+@media (min-width: 992px) {
+  .navbar-toggler {
+    justify-content: left;
+  }
+  li {
+    text-align: left;
+  }
+  .dropdown-menu.show {
+  margin-right: 900px;
+  }
+} */
+h5{
+  margin-top: 13px ;
+}
+
+.navbar-nav{
+  padding-right: 60px;
+}
+.nav{
+  font-size: medium;
+}
+body{
+  
+  background-image: linear-gradient(to right, gray , black);
+}
+.btn-dark{
+  margin-left: 60px;
+  
+}
+
+
+@media (max-width: 768px){
+
+  #profile.navbar-nav{
+   padding-right: 10px;
+  }
+ 
+  .btn-dark{
+    margin-left: 10px;
+  }
+  #company{
+   display: none;
+  }
+  .nav-scroller {
+    display: none;
+  }
+  
+}
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.navbar-toggler-icon  {
+  cursor: pointer;
+ 
+  } 
+ .nav-tabs{
+text-align: center;
+ }
+ 
