@@ -55,51 +55,43 @@ li {
   margin-right: 900px;
   }
 } */
-h5{
-  margin-top: 13px ;
-}
 
-.navbar-nav{
+
+.navbar-nav {
   padding-right: 60px;
 }
-.nav{
+.nav {
   font-size: medium;
 }
-body{
-  
-  background-image: linear-gradient(to right, gray , black);
+body {
+  background-image: linear-gradient(to right, gray, black);
 }
-.btn-dark{
+.btn-dark {
   margin-left: 60px;
-  
 }
 
 
-@media (max-width: 768px){
-
-  #profile.navbar-nav{
-   padding-right: 10px;
+@media (max-width: 768px) {
+  #profile.navbar-nav {
+    padding-right: 10px;
   }
- 
-  .btn-dark{
+
+  .btn-dark {
     margin-left: 10px;
   }
-  #company{
-   display: none;
-  }
-  .nav-scroller {
-    display: none;
-  }
+  
+  
   
 }
+
+
+
 .fa-1x {
   font-size: 1.5rem;
-  }
-  .navbar-toggler.navbar-toggler-icon  {
+}
+.navbar-toggler.navbar-toggler-icon {
   cursor: pointer;
- 
-  } 
- .nav-tabs{
-text-align: center;
- }
- 
+}
+.nav-tabs {
+  text-align: center;
+}

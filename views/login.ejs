@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/login.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -22,68 +22,21 @@
 </head>
 
 <body>
-
- <!-- header mobile -->
-    <div class="navbar-mobile"> 
-<!--Navbar-->
-<nav class="navbar navbar-dark bg-dark lighten-4 ">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">
-        <img src="/images/choktawee.png" height="30" class="d-inline-block align-top" alt="mdb logo"> บริษัท
-        โชคทวีออโต้เซลล์ จำกัด
-    </a>
-    <!-- Collapse button -->
-    <button class="navbar-toggler navbar-toggler-icon  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse " id="navbarSupportedContent1">
-
-        <!-- Links -->
-        <ul class="navbar-nav nav-tabs" id="item-mobile">
-
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">ซื้อรถ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">ขายรถ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">ซ่อมรถ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">เดินทะเบียน</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">สต็อครถ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">จัดการใบเสร็จ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">จัดการพนักงาน</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">จัดการลูกค้า</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">จัดการคู่ค้า</a>
-            </li>
-        </ul>
-        <!-- Links -->
-
-    </div>
-    <!-- Collapsible content -->
-
-</nav>
-<!--/.Navbar-->
-
-    </div>
     
-    <!-- header mobile -->
- 
+    <div id="fullscreen_bg" class="fullscreen_bg">
+
+    <div class="container">
+    
+        <form class="form-signin">
+            <h1 class="form-signin-heading text-white">Sign In</h1>
+            <input type="text" class="form-control " placeholder="Email address" required="" autofocus="">
+            <input type="password" class="form-control" placeholder="Password" required="">
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                Sign In
+            </button>
+        </form>
+    
+    </div>
 </body>
 
 </html>
